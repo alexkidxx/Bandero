@@ -17,6 +17,9 @@ export class ChatPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  enviarMensagem(){
+    console.log("mensagem do chat");
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChatPage');

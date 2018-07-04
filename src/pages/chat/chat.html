@@ -7,12 +7,49 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>chat</ion-title>
+    <ion-title>Chat</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
 
-</ion-content>
+
+
+    <ion-card class="topoChat">
+
+        <ion-item class="dir">
+          <ion-avatar item-start>
+            <img src="../assets/imgs/ghost.png">
+          </ion-avatar>
+          <h2>Mr.Ghost</h2>
+          <p>Alex,Rafael,Rafael,Lucas,Jarold</p>
+        </ion-item>
+
+
+
+
+    
+  
+  <ion-footer>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-10>
+    <ion-input type="text" id="msgChat"></ion-input>
+  </ion-col>
+  <ion-col col-2>
+    <a (click)="enviarMensagem()">
+    <ion-icon name="md-send" class="ico"></ion-icon>
+  </a>
+  </ion-col>
+  </ion-row>
+      </ion-grid>
+  </ion-footer>
+
+
+
+
+
+
+

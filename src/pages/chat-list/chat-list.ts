@@ -14,17 +14,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'chat-list.html',
 })
 export class ChatListPage {
+ 
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+   
   }
 
   ionViewDidLoad() {
+  
     console.log('ionViewDidLoad ChatListPage');
   }
+navegarChat(nomeBanda:String){
+  
+  nomeBanda = "Mertiolate";
+  console.log("pra onde vai");
+  console.log(nomeBanda);
+  this.navCtrl.push("ChatPage");
 
-navegarChat(nomeChat:String){
-  this.navCtrl.push("nomeChat"+"Page");
 
 }
+
 
 }
