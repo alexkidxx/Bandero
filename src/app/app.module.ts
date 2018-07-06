@@ -13,6 +13,7 @@ import { CidadesPorEstadosProvider } from '../providers/cidades-por-estados/cida
 import { HttpClientModule } from '@angular/common/http';
 import { ChatListPageModule } from '../pages/chat-list/chat-list.module';
 import { IntroPageModule } from '../pages/intro/intro.module';
+import { LoginPageModule } from '../pages/login/login.module';
 
 
 
@@ -35,7 +36,8 @@ import { IntroPageModule } from '../pages/intro/intro.module';
     PerfilPageModule,
     ChatListPageModule,
     IonicModule.forRoot(MyApp),
-    IntroPageModule
+    IntroPageModule,
+    LoginPageModule
 
     
   ],
