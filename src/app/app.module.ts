@@ -12,6 +12,7 @@ import { PerfilPageModule } from '../pages/perfil/perfil.module';
 import { CidadesPorEstadosProvider } from '../providers/cidades-por-estados/cidades-por-estados';
 import { HttpClientModule } from '@angular/common/http';
 import { ChatListPageModule } from '../pages/chat-list/chat-list.module';
+import { IntroPageModule } from '../pages/intro/intro.module';
 
 
 
@@ -34,6 +35,8 @@ import { ChatListPageModule } from '../pages/chat-list/chat-list.module';
     PerfilPageModule,
     ChatListPageModule,
     IonicModule.forRoot(MyApp),
+    IntroPageModule
+
     
   ],
   bootstrap: [IonicApp],
