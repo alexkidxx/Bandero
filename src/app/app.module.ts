@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ChatListPageModule } from '../pages/chat-list/chat-list.module';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { LoginPageModule } from '../pages/login/login.module';
+import { EsceceuSenhaPageModule } from '../pages/esceceu-senha/esceceu-senha.module';
+import { CriarUsuarioPageModule } from '../pages/criar-usuario/criar-usuario.module';
 
 
 
@@ -38,7 +40,9 @@ import { LoginPageModule } from '../pages/login/login.module';
     ChatListPageModule,
     IonicModule.forRoot(MyApp),
     IntroPageModule,
-    LoginPageModule
+    LoginPageModule,
+    EsceceuSenhaPageModule,
+    CriarUsuarioPageModule
   
 
     
