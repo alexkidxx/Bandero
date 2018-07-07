@@ -19,6 +19,7 @@ import { LoginPageModule } from '../pages/login/login.module';
 
 
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -38,6 +39,7 @@ import { LoginPageModule } from '../pages/login/login.module';
     IonicModule.forRoot(MyApp),
     IntroPageModule,
     LoginPageModule
+  
 
     
   ],
