@@ -16,6 +16,7 @@ import { IntroPageModule } from '../pages/intro/intro.module';
 import { LoginPageModule } from '../pages/login/login.module';
 import { EsceceuSenhaPageModule } from '../pages/esceceu-senha/esceceu-senha.module';
 import { CriarUsuarioPageModule } from '../pages/criar-usuario/criar-usuario.module';
+import { LocalUsuarioPageModule } from '../pages/local-usuario/local-usuario.module';
 
 
 
@@ -42,7 +43,8 @@ import { CriarUsuarioPageModule } from '../pages/criar-usuario/criar-usuario.mod
     IntroPageModule,
     LoginPageModule,
     EsceceuSenhaPageModule,
-    CriarUsuarioPageModule
+    CriarUsuarioPageModule,
+    LocalUsuarioPageModule
   
 
     

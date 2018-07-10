@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { LocalUsuarioPage } from '../local-usuario/local-usuario';
 
 /**
- * Generated class for the CriarUsuarioPage page.
+ * Generated class for the LocalUsuarioPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +10,16 @@ import { LocalUsuarioPage } from '../local-usuario/local-usuario';
 
 @IonicPage()
 @Component({
-  selector: 'page-criar-usuario',
-  templateUrl: 'criar-usuario.html',
+  selector: 'page-local-usuario',
+  templateUrl: 'local-usuario.html',
 })
-export class CriarUsuarioPage {
+export class LocalUsuarioPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CriarUsuarioPage');
+    console.log('ionViewDidLoad LocalUsuarioPage');
   }
 
-
-  navegarLocalUsuario(){
-
-    this.navCtrl.push(LocalUsuarioPage);
-  }
 }

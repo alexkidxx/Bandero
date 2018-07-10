@@ -4,6 +4,7 @@ import { CriarUsuarioPage } from '../criar-usuario/criar-usuario';
 import { EsceceuSenhaPage } from '../esceceu-senha/esceceu-senha';
 import { HomePage } from '../home/home';
 
+
 /**
  * Generated class for the LoginPage page.
  *
