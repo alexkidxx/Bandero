@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FotoPerfilPage } from '../foto-perfil/foto-perfil';
 
 /**
  * Generated class for the LocalUsuarioPage page.
@@ -21,5 +22,7 @@ export class LocalUsuarioPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad LocalUsuarioPage');
   }
-
+navegarFotoPerfil(){
+  this.navCtrl.push(FotoPerfilPage);
+}
 }
