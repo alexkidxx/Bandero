@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { PerfilPage } from '../perfil/perfil';
 
 @Component({
   selector: 'page-list',
@@ -27,6 +28,23 @@ export class ListPage {
       });
     }
   }
+
+
+  navegarParaPerfil(){
+this.navCtrl.push(PerfilPage);
+  }
+  navegarParaConfigs(){
+    
+  }
+  navegarParaSobre(){
+    
+  }
+  navegarParaContato(){
+    
+  }
+
+
+
 
   itemTapped(event, item) {
     // That's right, we're pushing to ourselves!

@@ -1,23 +1,40 @@
+
+
+
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
+    <button ion-button menuToggle icon-only>
+      <ion-icon name='menu'></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <ion-title>
+     
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-header>
+  <ion-navbar>
+    
+    <ion-title>Menus</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
+    <button ion-item (click)="navegarParaPerfil()">
+      Perfil
     </button>
+    <button ion-item (click)="navegarParaConfigs()">
+      Configurações
+    </button>
+    <button ion-item (click)="navegarParaSobre()">
+     Sobre
+    </button>
+    <button ion-item (click)="navegarParaContato()">
+     Contato
+    </button>
+   
+    
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+  
 </ion-content>

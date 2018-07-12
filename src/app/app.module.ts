@@ -18,6 +18,9 @@ import { EsceceuSenhaPageModule } from '../pages/esceceu-senha/esceceu-senha.mod
 import { CriarUsuarioPageModule } from '../pages/criar-usuario/criar-usuario.module';
 import { LocalUsuarioPageModule } from '../pages/local-usuario/local-usuario.module';
 import { FotoPerfilPageModule } from '../pages/foto-perfil/foto-perfil.module';
+import { SobrePageModule } from '../pages/sobre/sobre.module';
+import { ContatoPageModule } from '../pages/contato/contato.module';
+import { ConfigsPageModule } from '../pages/configs/configs.module';
 
 
 
@@ -46,7 +49,10 @@ import { FotoPerfilPageModule } from '../pages/foto-perfil/foto-perfil.module';
     EsceceuSenhaPageModule,
     CriarUsuarioPageModule,
     LocalUsuarioPageModule,
-    FotoPerfilPageModule
+    FotoPerfilPageModule,
+    SobrePageModule,
+    ContatoPageModule,
+    ConfigsPageModule
   
 
     
