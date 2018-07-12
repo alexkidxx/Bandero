@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { PerfilPage } from '../perfil/perfil';
 import { ChatListPage } from '../chat-list/chat-list';
-import { ChatPage } from '../chat/chat';
+
 
 
 @Component({

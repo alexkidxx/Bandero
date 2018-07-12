@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ConfigsProvider {
 
-private config ={
+public config ={
   showSlide:false,
   name:"",
   email:""
